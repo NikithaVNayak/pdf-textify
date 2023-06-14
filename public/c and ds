@@ -1,0 +1,66 @@
+#include<stdio.h>
+int main{
+char n[100],a[100];
+int k;    
+
+
+printf("enter the code:");
+scanf("%c",n);
+printf("enter the key:");
+scanf("%d",k);
+for(i=0;i<=n;i++)
+{
+
+// if(65>=n<=91)
+// {
+//   i=i+k;
+//  printf("%c",i);
+      
+// }
+// else if(97>=n<=123)
+switch(a[i])
+{
+    case 1: if(65>=a[i]<=91)
+           {
+            i=i+k;
+            printf("%c",c[i]);
+           }
+           break;
+    case 2:if(97>=a[i]<=123) 
+           {
+             i=i+k;
+            printf("%c",c[i]);
+           }  
+           break;
+    case 3:if(48>=a[i]<=57)
+           {
+            i=i+k;
+            printf("%c",c[i]);
+           } 
+           break;
+           default("enter the correct string ");
+           break;          
+}
+
+
+
+
+
+
+ 
+
+
+
+}
+}
+
+
+char mes[1000];
+int t;
+scanf("%s",mes);
+scanf("%d",&t);
+for(i-0;mes[i]!='\0';i++)
+switch(mes[i])
+{
+    case 'A' ......'Z':mes[i]=(())
+}

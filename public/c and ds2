@@ -1,0 +1,24 @@
+#include<stdio.h>
+int main()
+{
+    int a[100],n,sum,max;
+    printf("enter the no :");
+    scanf("%d",&n);
+    printf("enter the number:");
+    for(i=0;i<=n;i++)
+    scanf("%d",&a[i]);
+    for(i=0;i<n-2;i++)
+    {
+        
+        sum=a[i]+a[i+1]+a[i+2];
+        printf("sum=%d"&sum);
+     
+
+
+    }
+    max=a[0];
+    max=(a[i]>max)?a[i]:max;
+    
+    return 0;
+
+}

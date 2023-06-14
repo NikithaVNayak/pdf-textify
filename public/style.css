@@ -1,0 +1,38 @@
+body{
+    background-color: rgb(222, 222, 238);
+}
+textarea{
+    width: 600px; 
+    height: 400px;
+    background-color: rgba(48, 48, 133, 0.799);
+    color: #fff;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgb(3, 3, 120);
+}
+.textarea{
+    margin-top: 0%;
+    margin-left: 30%;   
+}
+textarea::placeholder{
+    color: #fff;
+}
+#resultText{
+    color:#fff;
+}
+.fileinput{
+    padding: 10px;
+    background-color: rgba(48, 48, 133, 0.799);
+    margin-right: 37%;
+    margin-left: 38%;
+    margin-top: 8%;
+    border-radius: 10px;
+    color: #fff;
+}
+#btnUpload{
+    border-radius: 7px;
+    padding: 10px;
+    background-color: rgb(182, 182, 237);
+}
+#btnUpload:hover{
+    background-color: rgb(135, 135, 229);
+}
