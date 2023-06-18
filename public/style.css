@@ -1,8 +1,9 @@
-body{
+body,.jumbotron{
     background-color: rgb(222, 222, 238);
 }
+
 textarea{
-    width: 600px; 
+    width: 800px; 
     height: 400px;
     background-color: rgba(48, 48, 133, 0.799);
     color: #fff;
@@ -11,7 +12,7 @@ textarea{
 }
 .textarea{
     margin-top: 0%;
-    margin-left: 30%;   
+    margin-left: 25%;   
 }
 textarea::placeholder{
     color: #fff;
@@ -20,19 +21,97 @@ textarea::placeholder{
     color:#fff;
 }
 .fileinput{
-    padding: 10px;
+    padding: 15px;
     background-color: rgba(48, 48, 133, 0.799);
-    margin-right: 37%;
-    margin-left: 38%;
-    margin-top: 8%;
+    margin-right: 23%;
+    margin-left: 25%;
+    margin-top: 5%;
     border-radius: 10px;
     color: #fff;
 }
 #btnUpload{
+    margin-left: 40px;
+    color: #fff;
+    border-radius: 7px;
+    padding: 6px;
+    background-color: rgb(106, 106, 177);
+}
+#btnUpload:hover{
+    background-color: rgb(135, 135, 229);
+}
+.btn1{
+    margin-left: 55%;
+    color: rgb(31, 3, 92);
+    text-decoration: none;
     border-radius: 7px;
     padding: 10px;
     background-color: rgb(182, 182, 237);
 }
-#btnUpload:hover{
+.btn1:hover{
+    box-shadow: #fff 0px 0px 5px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    background-color: rgba(48, 48, 133, 0.799);
+}
+
+input[type="file"] {
+    display: none;
+}
+.custom-file-upload {
+    color: rgb(31, 3, 92);
+    border-radius: 10px;
+    background-color: rgb(182, 182, 237);
+    display: inline-block;
+    padding: 8px;
+    cursor: pointer;
+}
+#btn2{
+    color: #fff;
+    background-color: rgba(48, 48, 133, 0.799);
+}
+.display-3{
+    color: rgba(48, 48, 133, 0.799);
+}
+.lead{
+    color: rgba(48, 48, 133, 0.799); 
+}
+.fa-google {
+    background: conic-gradient(from -45deg, #ea4335 110deg, #4285f4 90deg 180deg, #34a853 180deg 270deg, #fbbc05 270deg) 73% 55%/150% 150% no-repeat;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+  }
+  .bridge{
+    color: gray;
+    text-align: center;
+  }
+  .card{
+    text-decoration: none;
+    background-color: #fff;
+    align-items: center;
+    padding: 2%;
+    border: none;
+  }
+  .container1{
+    margin-left: 25%;
+  }
+.card{
+    border-radius: 30px;
+    background-color: rgba(195, 195, 252, 0.905);
+}
+.head1{
+    color: rgba(48, 48, 133, 0.799); 
+}
+.btn5{
+    
+    color: #fff;
+    border-radius: 7px;
+    padding: 6px;
+    padding-left: 1em;
+    padding-right: 1em;
+    background-color: rgb(106, 106, 177);
+}
+.btn5:hover{
     background-color: rgb(135, 135, 229);
 }
